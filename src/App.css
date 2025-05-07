@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:'Dancing Script',cursive;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/263/910/non_2x/abstract-blurred-beautiful-soft-cloud-background-with-a-pastel-multicolored-gradient-concept-for-wedding-card-design-or-presentation-free-photo.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  .header-frame {
+    position: relative;
+    width: 700px;
+    height: 170px;
+    border: 5px solid red;
+    margin: 0 auto 40px auto;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgb(0, 60, 255)
+    
+  }
+  
+  .header-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .header-frame h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+  
+  
+  .image-frame {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(0, 255, 0);
+    box-shadow:0 10px 25px rgb(0, 60, 255);
+    background-image: url(https://th.bing.com/th/id/OIP.NGiJN0FFpl7c_LQmzelytgHaE8?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .multiplication-table {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    text-align: right;
+    font-size: 13px;
+    font-family: cursive;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  
+  .transparent-frame {
+    width: 600px;
+    height: 350px;
+    border: 3px solid limegreen;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgb(0, 60, 255)
+    
+  }
+  
+  .equations {
+    list-style-type: disc;
+    font-size: 20px;
+    text-align: center;
+  }
