@@ -1,92 +1,70 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family:'Dancing Script',cursive;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/006/263/910/non_2x/abstract-blurred-beautiful-soft-cloud-background-with-a-pastel-multicolored-gradient-concept-for-wedding-card-design-or-presentation-free-photo.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .app {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  
-  .header-frame {
-    position: relative;
-    width: 700px;
-    height: 170px;
-    border: 5px solid red;
-    margin: 0 auto 40px auto;
-    overflow: hidden;
-    box-shadow: 0 10px 25px rgb(0, 60, 255)
-    
-  }
-  
-  .header-background {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .header-frame h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    font-size: 22px;
-    color: black;
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 4px 10px;
-    border-radius: 6px;
-  }
-  
-  
-  .image-frame {
-    position: relative;
-    width: 600px;
-    height: 350px;
-    margin-bottom: 20px;
-    border: 3px solid rgb(0, 255, 0);
-    box-shadow:0 10px 25px rgb(0, 60, 255);
-    background-image: url(https://th.bing.com/th/id/OIP.NGiJN0FFpl7c_LQmzelytgHaE8?rs=1&pid=ImgDetMain);
-    background-size: cover;
-    background-position: center;
-  }
-  
-  .multiplication-table {
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    text-align: right;
-    font-size: 13px;
-    font-family: cursive;
-    color: black;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-  
-  .transparent-frame {
-    width: 600px;
-    height: 350px;
-    border: 3px solid limegreen;
-    background-color: rgba(255, 255, 255, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 10px 25px rgb(0, 60, 255)
-    
-  }
-  
-  .equations {
-    list-style-type: disc;
-    font-size: 20px;
-    text-align: center;
-  }
+Body{ 
+  background: url(https://static.vecteezy.com/system/resources/previews/006/263/910/non_2x/abstract-blurred-beautiful-soft-cloud-background-with-a-pastel-multicolored-gradient-concept-for-wedding-card-design-or-presentation-free-photo.jpg);
+      background-size: cover;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 20px;
+      color: black;
+
+    }
+
+    .header {
+        background-image: url(https://c.wallhere.com/photos/00/ad/flower_japan_garden_spring_nikon-408087.jpg!d); 
+        background-size: cover;
+        background-position: center;
+        color: black;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: center;
+        padding:40px 20px;
+        margin: 20px auto;
+        width: 50%;
+        max-width: 600px;
+        border: 10px solid red;
+        border-radius: 0px;
+        box-shadow: 0 10px 20px rgb(106, 0, 255);
+        font-family: 'Brush Script MT', cursive; 
+      }
+     
+
+    .multiplication-table {
+        background-image: url(https://th.bing.com/th/id/R.f4532c5251d82428a4af7bcc37a487f6?rik=187Jr8ukf571fQ&riu=http%3a%2f%2fsakaimami.net%2fwp-content%2fuploads%2f2014%2f10%2f20141012_002.jpg&ehk=kc5nt5RNn7JYJ89FB9zoElt78r%2bE8zOA9cYn3WLAFQQ%3d&risl=&pid=ImgRaw&r=0
+        ); 
+        background-size: cover;
+        background-position: center;
+        border: 3px solid rgb(21, 255, 0);
+        border-radius: 0px;
+        padding: 0px;
+        width: 400px;
+        margin: 0 auto 30px;
+        font-size: 25px;
+        text-align: left;
+        box-shadow: 0 10px 25px rgb(25, 0, 255);
+        color: rgb(255, 255, 255);
+        text-shadow: 1px 1px 3px black;
+      }
+      
+    .table-photo {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+      border-radius: 10px;
+    }
+
+    .formulas {
+      border: 3px solid rgb(92, 255, 10);
+      border-radius: 0px;
+      padding: 20px;
+      background: rgba(185, 185, 185, 0);
+      width: 400px;
+      margin: 0 auto;
+      font-size: 30px;
+      text-align: left;
+      box-shadow: 0 10px 25px rgb(0, 242, 255)
+
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }

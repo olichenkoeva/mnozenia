@@ -1,59 +1,51 @@
 import './App.css'
 
 function App() {
-
-
+  
+  let num = 4
+ 
+  let x = 5
+  let y = 3
+  let wyn1 = num * Math.pow(x, 3) + 1 - num * y; 
+  let wyn2 = 2 * x + Math.pow(x, 2) - 4 * Math.pow(y, 2); 
+  let wyn3 = 3 * Math.pow(y, 2) - num * Math.pow(x, 2) - num * y; 
+  let wyn4 = 2 * x * y + num * x * y;
+  let wyn5 = 3 * Math.pow(x, 2) + num * y + 2;
   return (
     <>
 
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/17856/17856366.png" />
+    <title>mnozenia</title>
+    <body>
+    <div class="header">
+    Komputer number - {num}
+  </div>
+ <div class="multiplication-table" id="multiplication">
 
-
-
-() {
-   (
-    <div className="app">
-      
-      <div className="header-frame">
-        <img
-          src="https://c.wallhere.com/photos/00/ad/flower_japan_garden_spring_nikon-408087.jpg!d"
-          alt="Header Background"
-          className="header-background"
-        />
-        <h1>Komputer numer - 4</h1>
-      </div>
-
-      
-      <div className="frame image-frame">
-        <div className="multiplication-table">
-          <p>4×1=4</p>
-          <p>4×2=8</p>
-          <p>4×3=12</p>
-          <p>4×4=16</p>
-          <p>4×5=20</p>
-          <p>4×6=24</p>
-          <p>4×7=28</p>
-          <p>4×8=32</p>
-          <p>4×9=36</p>
-          <p>4×10=40</p>
-        </div>
-      </div>
-
-      
-      <div className="frame transparent-frame">
-        <ul className="equations">
-          <li>4x³ + 1 - 4y = 36</li>
-          <li>2x + 4² - 4y² = 17</li>
-          <li>3y² - 4x²y - 4y = -78</li>
-          <li>2xy + 4xy = 54</li>
-          <li>3x² + 4y + 2 = 35</li>
-        </ul>
-      </div>
-    </div>
-  )
-}
-
-
-
+ {num}*1=4 <br></br>
+ {num}*2=8 <br></br>
+ {num}*3=12 <br></br>
+ {num}*4=16 <br></br>
+ {num}*5=20 <br></br>
+ {num}*6=24 <br></br>
+ {num}*7=28 <br></br>
+ {num}*8=32 <br></br>
+ {num}*9=36 <br></br>
+ {num}*10=40 <br></br>
+   </div>
+     <div class="formulas">
+      <ul id="formulas-list">
+      <li> {num}x<sup>3</sup> + 1 -  {num}y = {wyn1}</li>
+      <li>2x + x<sup>2</sup> - 4y<sup>2</sup> = {wyn2}</li>
+      <li>3y<sup>2</sup> - 4<sup>2</sup> -  {num}y = {wyn3}</li>
+      <li>2xy +  {num}xy = {wyn4}</li>
+      <li>3x<sup>2</sup> +  {num}y + 2 = {wyn5}</li>
+      </ul>
+     </div>
+   
+  
+    
+    </body>
     </>
 
   )
